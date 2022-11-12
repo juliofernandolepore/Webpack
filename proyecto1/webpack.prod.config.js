@@ -8,6 +8,7 @@ const config = {
         path: path.resolve(__dirname, 'dist'), /* aqui estoy importando el path de la const path */
         filename : 'main.js' /* nombre del archivo */
     },
+    mode: 'production' /* modo produccion*/
 }
 
 module.exports = config /* exporta el modulo */

@@ -43,6 +43,12 @@ npx webpack --mode=production (modo produccion).
 
  el contenido de la variable data pasara a un archivo.json
 
- ---
+ # instalar y configurar el servidor de desarrollo
+
+ npm install --save-dev webpack-merge
+
+ npm install --save-dev webpack-dev-server
+
+ y luego ejecutar el comando: npx webpack serve , no olvidar configurar el server en webpack.config.js.
 
  ---

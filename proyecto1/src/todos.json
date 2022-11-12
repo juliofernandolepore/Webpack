@@ -1,12 +1,17 @@
 [
     {
         "id": 1560865205317,
-        "text": "Buy eggs",
+        "text": "Comprar Huevos",
+        "completed": false
+    },
+    {
+        "id": 1560865205316,
+        "text": "alimentar a las mascotas",
         "completed": false
     },
     {
         "id": 1560865205318,
-        "text": "Do 15 min exercise",
+        "text": "hacer 15 minutos de ejercicios",
         "completed": false
     }
 ]
