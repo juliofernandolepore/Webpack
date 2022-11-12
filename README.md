@@ -2,7 +2,7 @@
 
 # instalar nodeJs (LTS https://nodejs.org/es/download/).
 
-npm init -y
+npm init -y (este comando crea el package.json por defecto).
 
 ---
 
@@ -10,7 +10,7 @@ npm install o npm install --save-dev webpack webpack-cli (este ultimo con depend
 
 ---
 
-si npm pide actualizarse, ejecutar el comando de update npm.
+si npm pide actualizarse, ejecutar el comando de update npm (npm install -g npm@9.1.1 por ejemplo).
 
 ---
 
@@ -18,8 +18,13 @@ crear una carpeta src dentro del directorio del proyecto( para el main.js)
 
 # https://www.npmjs.com/package/npx
 
-npx webpack
+npx webpack (si la instalacion fue exitosa esto crea el directorio dist que contiene el main.js).
 
-si fue exitosa la instalacion se crea la carpeta dist que contiene el main.js
+# npx mode: production/development/none
 
----
+npx webpack --mode=development (modo desarrollo).
+npx webpack --mode=production (modo produccion).
+
+# modificar de ruta del index.html
+
+ src del script con archivo ubicado en dist main.js
