@@ -28,3 +28,21 @@ npx webpack --mode=production (modo produccion).
 # modificar de ruta del index.html
 
  src del script con archivo ubicado en dist main.js
+
+ ---
+
+ configuracion default webpack.
+
+ crear un archivo webpack.config.js (dentro del directorio del proyecto).
+
+ dentro de archivo se debera importar el modulo 'path'
+
+ ---
+
+ en este punto hay que separar el codigo en varios archivos js dentro de la carpeta src.
+
+ el contenido de la variable data pasara a un archivo.json
+
+ ---
+
+ ---
